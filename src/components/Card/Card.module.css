@@ -1,0 +1,16 @@
+.card {
+    width: 560px;
+    height: 400px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+iframe {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.534);
+}
+
+.card p {
+    margin: 5px 0px;
+}

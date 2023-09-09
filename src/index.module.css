@@ -1,0 +1,20 @@
+:root {
+    --dark: #1C1B1B;
+    --fonte: 'Inter', sans-serif;
+    --logoFonte: 'Cairo Play', sans-serif;
+    --azulDaLogoEBotao: #223A7A;
+    --claro: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--dark);
+    color: white;
+    overflow-x: hidden;
+}

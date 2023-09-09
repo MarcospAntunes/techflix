@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #223A7A;
+    height: 60px;
+}
+
+
+.logo {
+    font-family: 'Cairo Play', sans-serif;
+    font-size: 48px;
+    color: #223A7A;
+}
+
+nav {
+    padding-top: 25px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+}
+nav a:hover {
+    border-bottom: 1px solid #223A7A;
+}
+
+main {
+    display: block !important;
+}
+
+.caixaPesquisa {
+    width: 100vw;
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 500px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100vw;
+    height: 500px;
+    background: url('');
+}
+
+.botoes {
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    height: 50%;
+    margin-left: 40px;
+
+}
+
+.galeriaDeVideos {
+    width: 100vw;
+    height: 500px;
+}
+
+.galeriaDeVideos h1 {
+    margin-left: 15px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    gap: 15px;
+}

@@ -1,0 +1,35 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/images/pexels-cottonbro-studio-8721318.jpg) center no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navegar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #000000ad;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    font-size:26px;
+    text-align: center;
+}
+
+.navegar p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.navegar span {
+    color: rgb(121, 18, 18);
+    font-weight: bold;
+}
+
+
