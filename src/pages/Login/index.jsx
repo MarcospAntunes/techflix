@@ -11,7 +11,7 @@ function Login() {
 
     return (
         <>
-            <main>
+            <main className={styles.mainLogin}>
                 <section>
                     <h1>Faça o login para acessar nossos serviços!</h1>
                 </section>

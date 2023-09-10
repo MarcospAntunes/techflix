@@ -4,6 +4,8 @@ import { CiSearch } from 'react-icons/ci';
 import { AiOutlineUser } from 'react-icons/ai'
 import videos from '../../json/db.json'
 import Card from '../../components/Card';
+import { motion } from "framer-motion";
+import { useState, useEffect, useRef } from 'react';
 
 function Home() {
     const videosFront = videos.filter((videos) => {
@@ -22,6 +24,16 @@ function Home() {
         return videos.categoria === 'Game Development'
     })
 
+    const videosDataBase = videos.filter((videos) => {
+        return videos.categoria === 'Database'
+    })
+
+    const carrossel = useRef()
+    const [width, setWidth] = useState(0)
+    useEffect(() => {
+        setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
+    }, [])
+
 
     return (
         <>
@@ -35,15 +47,13 @@ function Home() {
                     <a href="#">Meus Favoritos</a>
                 </nav>
                 
-                <AiOutlineUser size={48} />
-
-                
+                <AiOutlineUser className={styles.usuarioIcon} />
             </header>
 
             <main>
                 <section className={styles.inicio}>
+                    <div className={styles.caixaPesquisa}><input type="text" name="" id="" placeholder='O que procura?' /></div>
 
-                <div className={styles.caixaPesquisa}><input type="text" name="" id="" placeholder='O que procura?' /></div>
                    <div className={styles.botoes}>
                        <Botao style={{marginRight:'20px'}}>Assistir agora</Botao>
                        <Botao $azul>Mais informações</Botao>
@@ -53,7 +63,16 @@ function Home() {
                 <section className={styles.galeriaDeVideos}>
 
                     <h1>Front-end</h1>
-                    <ul className={styles.lista}>
+                    <motion.ul 
+                        ref={carrossel} 
+                        className={styles.lista} 
+                        whileTap={{cursor: "grabbing"}} 
+                        drag='x' 
+                        dragConstraints={{right: 0, left: -width}}                        
+                        initial={{x: 100}} 
+                        animate={{x: 0}}
+                        transition={{duration: 0.3}}
+                    >
                         {videosFront.map((video) => {
                             return (
                                 <Card
@@ -66,10 +85,19 @@ function Home() {
                                 />
                             )
                             })}
-                    </ul>
+                    </motion.ul>
 
                     <h1>Back-end</h1>
-                    <ul className={styles.lista}>
+                    <motion.ul 
+                        ref={carrossel} 
+                        className={styles.lista} 
+                        whileTap={{cursor: "grabbing"}} 
+                        drag='x' 
+                        dragConstraints={{right: 0, left: -width}}                        
+                        initial={{x: 100}} 
+                        animate={{x: 0}}
+                        transition={{duration: 0.3}}
+                    >
                         {videosBack.map((video) => {
                             return (
                                     <Card
@@ -82,7 +110,82 @@ function Home() {
                                     />
                             )
                             })}
-                    </ul>  
+                    </motion.ul>  
+                    
+                    <h1>Mobile</h1>
+                    <motion.ul 
+                        ref={carrossel} 
+                        className={styles.lista} 
+                        whileTap={{cursor: "grabbing"}} 
+                        drag='x' 
+                        dragConstraints={{right: 0, left: -width}}                        
+                        initial={{x: 100}} 
+                        animate={{x: 0}}
+                        transition={{duration: 0.3}}
+                    >
+                        {videosMobile.map((video) => {
+                            return (
+                                    <Card
+                                        key= {video.id} 
+                                        link = {video.link} 
+                                        titulo = {video.titulo}
+                                        autor = {video.autor}
+                                        categoria = {video.categoria}
+                                        assunto = {video.assunto}
+                                    />
+                            )
+                            })}
+                    </motion.ul>
+
+                    <h1>Game Development</h1>
+                    <motion.ul 
+                        ref={carrossel} 
+                        className={styles.lista} 
+                        whileTap={{cursor: "grabbing"}} 
+                        drag='x' 
+                        dragConstraints={{right: 0, left: -width}} 
+                        initial={{x: 100}} 
+                        animate={{x: 0}}
+                        transition={{duration: 0.3}}
+                    >
+                        {videosGame.map((video) => {
+                            return (
+                                    <Card
+                                        key= {video.id} 
+                                        link = {video.link} 
+                                        titulo = {video.titulo}
+                                        autor = {video.autor}
+                                        categoria = {video.categoria}
+                                        assunto = {video.assunto}
+                                    />
+                            )
+                            })}
+                    </motion.ul>    
+
+                    <h1>Data Base</h1>
+                    <motion.ul 
+                        ref={carrossel} 
+                        className={styles.lista} 
+                        whileTap={{cursor: "grabbing"}} 
+                        drag='x' 
+                        dragConstraints={{right: 0, left: -width}} 
+                        initial={{x: 100}} 
+                        animate={{x: 0}}
+                        transition={{duration: 0.3}}
+                    >
+                        {videosDataBase.map((video) => {
+                            return (
+                                    <Card
+                                        key= {video.id} 
+                                        link = {video.link} 
+                                        titulo = {video.titulo}
+                                        autor = {video.autor}
+                                        categoria = {video.categoria}
+                                        assunto = {video.assunto}
+                                    />
+                            )
+                            })}
+                    </motion.ul>    
                 </section>
             </main>
         </>

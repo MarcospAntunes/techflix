@@ -1,10 +1,14 @@
 header {
+    position: fixed;
+    background-color: var(--dark);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #223A7A;
+    width: 100vw;
     height: 60px;
+    z-index: 1;
 }
 
 
@@ -29,13 +33,17 @@ nav a:hover {
     border-bottom: 1px solid #223A7A;
 }
 
-main {
-    display: block !important;
+.usuarioIcon {
+    width: 42px;
+    height: 42px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .caixaPesquisa {
     width: 100vw;
     text-align: center;
+    margin-top: 50px;
 }
 
 input[type='text'] {
@@ -69,6 +77,7 @@ input[type='text'] {
 
 .galeriaDeVideos h1 {
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .lista {
@@ -76,4 +85,6 @@ input[type='text'] {
     flex-direction: row;
     margin-left: 15px;
     gap: 15px;
+    cursor: grab;
+    height: 500px;
 }

@@ -11,7 +11,7 @@ function Rotas() {
         <Route path='/' element={<Inicio />}></Route>
         <Route path='/home' element={<Home />}></Route>
         <Route path='/login' element={<Login />}></Route>
-        <Route path='/*' element={<Erro404 />}></Route>
+        <Route path='*' element={<Erro404 />}></Route>
       </Routes>
     </BrowserRouter>
     
