@@ -6,7 +6,7 @@ import Erro404 from './pages/Erro404';
 
 function Rotas() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Inicio />}></Route>
         <Route path='/home' element={<Home />}></Route>
