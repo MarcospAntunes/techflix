@@ -6,6 +6,7 @@ import videos from '../../json/db.json'
 import Card from '../../components/Card';
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from 'react';
+import ModalUsuario from '../../components/ModalUsuario'
 
 function Home() {
     const videosFront = videos.filter((videos) => {
@@ -34,6 +35,8 @@ function Home() {
         setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
     }, [])
 
+    const [openModal, setOpenModal] = useState(false)
+
 
     return (
         <>
@@ -41,13 +44,16 @@ function Home() {
                 <h1 className={styles.logo}>TechFlix</h1>
                 <nav>
                     <a href="#">Início</a>
-                    <a href="#">Back-end</a>
-                    <a href="">Mobile</a>
-                    <a href="#">Front-end</a>
-                    <a href="#">Meus Favoritos</a>
+                    <a href="#Back-end">Back-end</a>
+                    <a href="#Mobile">Mobile</a>
+                    <a href="#Front-end">Front-end</a>
+                    <a href="#Game-Development">Game Development</a>
+                    <a href="#Data-Base">Data Base</a>
+                    <a href="#Meus-Favoritos">Meus Favoritos</a>
                 </nav>
                 
-                <AiOutlineUser className={styles.usuarioIcon} />
+                <AiOutlineUser className={styles.usuarioIcon} onClick={() => setOpenModal(true)} />
+                <ModalUsuario isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} /> 
             </header>
 
             <main>
@@ -62,7 +68,7 @@ function Home() {
 
                 <section className={styles.galeriaDeVideos}>
 
-                    <h1>Front-end</h1>
+                    <h1 id='Front-end'>Front-end</h1>
                     <motion.ul 
                         ref={carrossel} 
                         className={styles.lista} 
@@ -87,7 +93,7 @@ function Home() {
                             })}
                     </motion.ul>
 
-                    <h1>Back-end</h1>
+                    <h1 id='Back-end'>Back-end</h1>
                     <motion.ul 
                         ref={carrossel} 
                         className={styles.lista} 
@@ -112,7 +118,7 @@ function Home() {
                             })}
                     </motion.ul>  
                     
-                    <h1>Mobile</h1>
+                    <h1 id='Mobile'>Mobile</h1>
                     <motion.ul 
                         ref={carrossel} 
                         className={styles.lista} 
@@ -137,7 +143,7 @@ function Home() {
                             })}
                     </motion.ul>
 
-                    <h1>Game Development</h1>
+                    <h1 id='Game-Development'>Game Development</h1>
                     <motion.ul 
                         ref={carrossel} 
                         className={styles.lista} 
@@ -162,7 +168,7 @@ function Home() {
                             })}
                     </motion.ul>    
 
-                    <h1>Data Base</h1>
+                    <h1 id='Data-Base'>Data Base</h1>
                     <motion.ul 
                         ref={carrossel} 
                         className={styles.lista} 
