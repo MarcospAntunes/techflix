@@ -27,7 +27,7 @@
 .closeModal {
     position: absolute;
     top: 40px;
-    right: 50px;
+    right: 60px;
     width: 10px;
     height: 10px;
     background-color: transparent;
@@ -53,4 +53,10 @@
     transform: translate(3px, 3px);
     transition: 0.3s;
     border-bottom: 1px solid #223A7A;
+}
+
+.usuarioIcon {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 10px;
 }

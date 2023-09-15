@@ -1,34 +1,14 @@
+import React from 'react';
 import Botao from '../../components/Botao';
 import styles from './Home.module.css'
-import { CiSearch } from 'react-icons/ci';
 import { AiOutlineUser } from 'react-icons/ai'
-import videos from '../../json/db.json'
 import Card from '../../components/Card';
 import { motion } from "framer-motion";
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef} from 'react';
 import ModalUsuario from '../../components/ModalUsuario'
+import { videos, videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
 
 function Home() {
-    const videosFront = videos.filter((videos) => {
-        return videos.categoria === 'Front-end'
-    })
-
-    const videosBack = videos.filter((videos) => {
-        return videos.categoria === 'Back-end'
-    })
-
-    const videosMobile = videos.filter((videos) => {
-        return videos.categoria === 'Mobile'
-    })
-
-    const videosGame = videos.filter((videos) => {
-        return videos.categoria === 'Game Development'
-    })
-
-    const videosDataBase = videos.filter((videos) => {
-        return videos.categoria === 'Database'
-    })
-
     const carrossel = useRef()
     const [width, setWidth] = useState(0)
     useEffect(() => {
@@ -37,7 +17,19 @@ function Home() {
 
     const [openModal, setOpenModal] = useState(false)
 
+    const [search, setSearch] = useState('')
+    const searchLowerCase = search.toLowerCase()
 
+    const videosBackFiltrados = videosBack.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
+
+    const videosFrontFiltrados = videosFront.filter(video => video.titulo.toLowerCase().includes(searchLowerCase)) 
+
+    const videosMobileFiltrados = videosMobile.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
+
+    const videosGameFiltrados = videosGame.filter(video => video.titulo.toLowerCase().includes(searchLowerCase)) 
+
+    const videosDataBaseFiltrados = videosDataBase.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
+    
     return (
         <>
             <header>
@@ -58,7 +50,14 @@ function Home() {
 
             <main>
                 <section className={styles.inicio}>
-                    <div className={styles.caixaPesquisa}><input type="text" name="" id="" placeholder='O que procura?' /></div>
+                    <div className={styles.caixaPesquisa}>       
+                        <input
+                            type="search" name="pesquisa" 
+                            id="pesquisa" 
+                            placeholder='O que procura?' 
+                            value={search} 
+                            onChange={(e) => setSearch(e.target.value)}/>
+                    </div>
 
                    <div className={styles.botoes}>
                        <Botao style={{marginRight:'20px'}}>Assistir agora</Botao>
@@ -67,7 +66,6 @@ function Home() {
                 </section>
 
                 <section className={styles.galeriaDeVideos}>
-
                     <h1 id='Front-end'>Front-end</h1>
                     <motion.ul 
                         ref={carrossel} 
@@ -79,7 +77,8 @@ function Home() {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosFront.map((video) => {
+                        
+                        {videosFrontFiltrados.map((video) => {
                             return (
                                 <Card
                                     key= {video.id} 
@@ -104,16 +103,16 @@ function Home() {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosBack.map((video) => {
+                        {videosBackFiltrados.map((video) => {
                             return (
-                                    <Card
-                                        key= {video.id} 
-                                        link = {video.link} 
-                                        titulo = {video.titulo}
-                                        autor = {video.autor}
-                                        categoria = {video.categoria}
-                                        assunto = {video.assunto}
-                                    />
+                                <Card
+                                    key= {video.id} 
+                                    link = {video.link} 
+                                    titulo = {video.titulo}
+                                    autor = {video.autor}
+                                    categoria = {video.categoria}
+                                    assunto = {video.assunto}
+                                />
                             )
                             })}
                     </motion.ul>  
@@ -129,16 +128,16 @@ function Home() {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosMobile.map((video) => {
+                        {videosMobileFiltrados.map((video) => {
                             return (
-                                    <Card
-                                        key= {video.id} 
-                                        link = {video.link} 
-                                        titulo = {video.titulo}
-                                        autor = {video.autor}
-                                        categoria = {video.categoria}
-                                        assunto = {video.assunto}
-                                    />
+                                <Card
+                                    key= {video.id} 
+                                    link = {video.link} 
+                                    titulo = {video.titulo}
+                                    autor = {video.autor}
+                                    categoria = {video.categoria}
+                                    assunto = {video.assunto}
+                                />
                             )
                             })}
                     </motion.ul>
@@ -154,16 +153,16 @@ function Home() {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosGame.map((video) => {
+                        {videosGameFiltrados.map((video) => {
                             return (
-                                    <Card
-                                        key= {video.id} 
-                                        link = {video.link} 
-                                        titulo = {video.titulo}
-                                        autor = {video.autor}
-                                        categoria = {video.categoria}
-                                        assunto = {video.assunto}
-                                    />
+                                <Card
+                                    key= {video.id} 
+                                    link = {video.link} 
+                                    titulo = {video.titulo}
+                                    autor = {video.autor}
+                                    categoria = {video.categoria}
+                                    assunto = {video.assunto}
+                                />
                             )
                             })}
                     </motion.ul>    
@@ -179,16 +178,16 @@ function Home() {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosDataBase.map((video) => {
+                        {videosDataBaseFiltrados.map((video) => {
                             return (
-                                    <Card
-                                        key= {video.id} 
-                                        link = {video.link} 
-                                        titulo = {video.titulo}
-                                        autor = {video.autor}
-                                        categoria = {video.categoria}
-                                        assunto = {video.assunto}
-                                    />
+                                <Card
+                                    key= {video.id} 
+                                    link = {video.link} 
+                                    titulo = {video.titulo}
+                                    autor = {video.autor}
+                                    categoria = {video.categoria}
+                                    assunto = {video.assunto}
+                                />
                             )
                             })}
                     </motion.ul>    
@@ -200,3 +199,4 @@ function Home() {
 
 
 export default Home;
+

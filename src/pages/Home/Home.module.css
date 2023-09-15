@@ -46,7 +46,7 @@ nav a:hover {
     margin-top: 50px;
 }
 
-input[type='text'] {
+input[type='search'] {
     width: 500px;
     border-radius: 50px;
     font-size: 18px;
@@ -58,7 +58,6 @@ input[type='text'] {
     align-content: space-between;
     width: 100vw;
     height: 500px;
-    background: url('');
 }
 
 .botoes {

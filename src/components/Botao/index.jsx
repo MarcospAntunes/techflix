@@ -3,18 +3,16 @@ import styled, { css } from 'styled-components';
 const Botao = styled.button`
     width: 218px;
     height: 50px;
-    background-color: #ffff;
+    background-color: ${({ theme }) => theme.buttonBg};
     border: none;
     border-radius: 5px;
-    color: black;
+    color: ${({ theme }) => theme.buttonText};
     font-size: 24px;
     cursor: pointer;
     transition: .3s;
 
     &:hover {
-      background-color: #223A7A;
       transform: translate(3px, 3px);
-      color: #ffff;
       transition: .3s;
     }
 
@@ -23,9 +21,7 @@ const Botao = styled.button`
     color: white;
 
     &:hover {
-      background-color: #ffffff;
       transform: translate(3px, 3px);
-      color: black;
       transition: .3s;
     }
 

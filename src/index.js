@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Routex from './routes';
-import './index.module.css'
+import './GlobalStyle'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
