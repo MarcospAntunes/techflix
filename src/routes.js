@@ -20,7 +20,7 @@ function Rotas() {
       <GlobalStyle />
         <Routes>
           <Route path='/' element={<Inicio />}></Route>
-          <Route path='/home' element={<Home />}></Route>
+          <Route path='/home' element={<Home themeToggler={themeToggler} />}></Route>
           <Route path='/login' element={<Login />}></Route>
           <Route path='*' element={<Erro404 />}></Route>
         </Routes>

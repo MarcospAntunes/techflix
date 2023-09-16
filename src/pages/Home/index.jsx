@@ -8,7 +8,7 @@ import { useState, useEffect, useRef} from 'react';
 import ModalUsuario from '../../components/ModalUsuario'
 import { videos, videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
 
-function Home() {
+function Home({ themeToggler }) {
     const carrossel = useRef()
     const [width, setWidth] = useState(0)
     useEffect(() => {
@@ -45,7 +45,7 @@ function Home() {
                 </nav>
                 
                 <AiOutlineUser className={styles.usuarioIcon} onClick={() => setOpenModal(true)} />
-                <ModalUsuario isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} /> 
+                <ModalUsuario isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} themeToggler={themeToggler} /> 
             </header>
 
             <main>

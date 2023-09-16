@@ -32,4 +32,8 @@ body {
     overflow-x: hidden;
 }
 
+input[type='search'] {
+    background-color: ${({ theme }) => theme.text};
+}
+
 `
