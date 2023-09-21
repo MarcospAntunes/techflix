@@ -3,7 +3,8 @@ export const  lightTheme = {
     div: '#1C1B1B',
     text: '#000',
     buttonBg: '#1C1B1B',
-    buttonText: '#fff'
+    buttonText: '#fff',
+    pesquisa: 'white'
 }
 
 export const  darkTheme = {
@@ -11,5 +12,6 @@ export const  darkTheme = {
     div: '#fff',
     text: '#fff',
     buttonBg: '#fff',
-    buttonText: 'black'
+    buttonText: 'black',
+    pesquisa: 'black'
 }

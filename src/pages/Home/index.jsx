@@ -1,12 +1,12 @@
-import React from 'react';
-import Botao from '../../components/Botao';
+import React, { useMemo } from 'react';
 import styles from './Home.module.css'
 import { AiOutlineUser } from 'react-icons/ai'
 import Card from '../../components/Card';
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef} from 'react';
 import ModalUsuario from '../../components/ModalUsuario'
-import { videos, videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
+import { videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
+import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
 
 function Home({ themeToggler }) {
     const carrossel = useRef()
@@ -50,19 +50,7 @@ function Home({ themeToggler }) {
 
             <main>
                 <section className={styles.inicio}>
-                    <div className={styles.caixaPesquisa}>       
-                        <input
-                            type="search" name="pesquisa" 
-                            id="pesquisa" 
-                            placeholder='O que procura?' 
-                            value={search} 
-                            onChange={(e) => setSearch(e.target.value)}/>
-                    </div>
-
-                   <div className={styles.botoes}>
-                       <Botao style={{marginRight:'20px'}}>Assistir agora</Botao>
-                       <Botao $azul>Mais informações</Botao>
-                   </div>
+                    <CaixaDePesquisa search={search} setSearch={setSearch} />
                 </section>
 
                 <section className={styles.galeriaDeVideos}>
@@ -78,7 +66,7 @@ function Home({ themeToggler }) {
                         transition={{duration: 0.3}}
                     >
                         
-                        {videosFrontFiltrados.map((video) => {
+                        {useMemo(() => (videosFrontFiltrados.map((video) => {
                             return (
                                 <Card
                                     key= {video.id} 
@@ -89,7 +77,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            })}
+                            })), [videosFrontFiltrados])}
                     </motion.ul>
 
                     <h1 id='Back-end'>Back-end</h1>
@@ -103,7 +91,7 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosBackFiltrados.map((video) => {
+                        {useMemo(() => videosBackFiltrados.map((video) => {
                             return (
                                 <Card
                                     key= {video.id} 
@@ -114,7 +102,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            })}
+                            }), [videosBackFiltrados])}
                     </motion.ul>  
                     
                     <h1 id='Mobile'>Mobile</h1>
@@ -128,7 +116,7 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosMobileFiltrados.map((video) => {
+                        {useMemo(() => videosMobileFiltrados.map((video) => {
                             return (
                                 <Card
                                     key= {video.id} 
@@ -139,7 +127,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            })}
+                            }), [videosMobileFiltrados])}
                     </motion.ul>
 
                     <h1 id='Game-Development'>Game Development</h1>
@@ -153,7 +141,7 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosGameFiltrados.map((video) => {
+                        {useMemo(() => videosGameFiltrados.map((video) => {
                             return (
                                 <Card
                                     key= {video.id} 
@@ -164,7 +152,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            })}
+                            }), [videosGameFiltrados])}
                     </motion.ul>    
 
                     <h1 id='Data-Base'>Data Base</h1>
@@ -178,7 +166,7 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {videosDataBaseFiltrados.map((video) => {
+                        {useMemo(() => videosDataBaseFiltrados.map((video) => {
                             return (
                                 <Card
                                     key= {video.id} 
@@ -189,7 +177,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            })}
+                            }), [videosDataBaseFiltrados])}
                     </motion.ul>    
                 </section>
             </main>
