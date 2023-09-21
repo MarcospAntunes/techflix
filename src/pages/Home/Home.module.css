@@ -38,18 +38,6 @@ nav a:hover {
     cursor: pointer;
 }
 
-.caixaPesquisa {
-    width: 100vw;
-    text-align: center;
-    margin-top: 50px;
-}
-
-input[type='search'] {
-    width: 500px;
-    border-radius: 50px;
-    font-size: 18px;
-}
-
 .inicio {
     display: flex;
     flex-direction: column;
