@@ -11,7 +11,12 @@ const InputStyled = styled.input`
     width: 500px;
     border-radius: 50px;
     font-size: 18px;
-    color: ${({ theme }) => theme.pesquisa}
+    color: ${({ theme }) => theme.pesquisa};
+
+    @media screen and (min-width: 291px) and (max-width: 500px) {
+        width: 250px;
+        margin: 100px 0px 0px 5vw;
+    }
 `
 
 function CaixaDePesquisa({ search, setSearch }) {

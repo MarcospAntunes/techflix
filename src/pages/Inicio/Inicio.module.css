@@ -32,4 +32,44 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:280px) {
+    .conteudo {
+        background: var(--dark);
+    }
+
+    .navegar {
+        width: 80%;
+        height: 80%;
+        font-size: 18px;
+    }
+
+    .navegar p {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100px !important;
+        height: 40px !important;
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 500px) {
+    .conteudo {
+        background: var(--dark);
+    }
+
+    .navegar {
+        width: 80%;
+        height: 80%;
+        font-size: 20px;
+    }
+
+    .navegar p {
+        margin: 10px;
+        font-size: 16px;
+    }
+}
+
 

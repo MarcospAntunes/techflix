@@ -38,6 +38,10 @@ nav a:hover {
     cursor: pointer;
 }
 
+.mobileMenu {
+    display: none;
+}
+
 .inicio {
     display: flex;
     flex-direction: column;
@@ -61,8 +65,9 @@ nav a:hover {
 }
 
 .galeriaDeVideos h1 {
-    margin-left: 15px;
+    margin-left: 80px;
     margin-bottom: 15px;
+    text-align: left !important;
 }
 
 .lista {
@@ -72,4 +77,45 @@ nav a:hover {
     gap: 15px;
     cursor: grab;
     height: 500px;
+}
+
+@media screen and (max-width: 1070px) {
+    .logo {
+        font-size: 32px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .usuarioIcon {
+        width: 92px;
+        height: 24px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .mobileMenu {
+        display: block;
+        width: 92px;
+        height: 24px;
+        margin-top: 10px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .inicio {
+        height: 300px;
+    }
+    
+    .galeriaDeVideos h1 {
+        margin: auto;
+        margin-bottom: 15px;
+        margin-left: 25px !important;
+    }
+
+    .lista {
+        gap: 5px;
+        height: 500px
+    }
 }

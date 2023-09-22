@@ -24,7 +24,14 @@ const ModalStyle = styled.div`
         height: 95vh;
         background-color: ${({ theme }) => theme.div};
         border-radius: 15px;
+
+        @media screen and (min-width: 281px) and (max-width: 500px) {
+        width: 80vw;
+        height: 50vh;
+    }
     `}
+
+    
 
 
 `
@@ -59,6 +66,11 @@ ${props => props.$botaoMenu && css`
         color: ${({ theme }) => theme.buttonText};
         border: none;
         cursor: pointer;
+
+        @media screen and (min-width: 281px) and (max-width: 500px) {
+        top: 180px;
+        right: 60px;
+        }
     `}
 
     

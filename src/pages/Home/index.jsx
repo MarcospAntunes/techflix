@@ -1,12 +1,13 @@
 import React, { useMemo } from 'react';
 import styles from './Home.module.css'
-import { AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai'
 import Card from '../../components/Card';
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef} from 'react';
 import ModalUsuario from '../../components/ModalUsuario'
 import { videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
 import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
+import { MenuMobile } from '../../components/MenuMobile';
 
 function Home({ themeToggler }) {
     const carrossel = useRef()
@@ -19,6 +20,8 @@ function Home({ themeToggler }) {
 
     const [search, setSearch] = useState('')
     const searchLowerCase = search.toLowerCase()
+
+    const [menuIsVisible, setmenuIsVisible] = useState(false)
 
     const videosBackFiltrados = videosBack.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
 
@@ -34,6 +37,7 @@ function Home({ themeToggler }) {
         <>
             <header>
                 <h1 className={styles.logo}>TechFlix</h1>
+                <MenuMobile menuIsVisible={menuIsVisible} setmenuIsVisible={setmenuIsVisible} />
                 <nav>
                     <a href="#">Início</a>
                     <a href="#Back-end">Back-end</a>
@@ -44,8 +48,10 @@ function Home({ themeToggler }) {
                     <a href="#Meus-Favoritos">Meus Favoritos</a>
                 </nav>
                 
+                
                 <AiOutlineUser className={styles.usuarioIcon} onClick={() => setOpenModal(true)} />
-                <ModalUsuario isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} themeToggler={themeToggler} /> 
+                <ModalUsuario isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} themeToggler={themeToggler} />
+                <AiOutlineMenu onClick={() => setmenuIsVisible(true)} className={styles.mobileMenu} /> 
             </header>
 
             <main>
