@@ -38,7 +38,7 @@ const Container = styled.div`
         transition: 0.3s
     }
 
-    ${({ isVisible }) => isVisible && css`
+    ${({ isvisible }) => isvisible && css`
         opacity: 1;
         pointer-events: auto;
         transform: translateX(0px);
@@ -59,7 +59,7 @@ export function MenuMobile({ menuIsVisible, setmenuIsVisible  }) {
     }, [menuIsVisible])
 
     return(
-        <Container isVisible={menuIsVisible}>
+        <Container isvisible={menuIsVisible}>
             <AiOutlineClose size={45} onClick={() => setmenuIsVisible(false)} />
             <nav>
                 <a href="#">Início</a>
@@ -68,7 +68,7 @@ export function MenuMobile({ menuIsVisible, setmenuIsVisible  }) {
                 <a href="#Front-end">Front-end</a>
                 <a href="#Game-Development">Game Development</a>
                 <a href="#Data-Base">Data Base</a>
-                <a href="#Meus-Favoritos">Meus Favoritos</a>
+                <a href="/meusFavoritos">Meus Favoritos</a>
             </nav>
         </Container>
     )

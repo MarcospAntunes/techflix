@@ -32,6 +32,8 @@ function Home({ themeToggler }) {
     const videosGameFiltrados = videosGame.filter(video => video.titulo.toLowerCase().includes(searchLowerCase)) 
 
     const videosDataBaseFiltrados = videosDataBase.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
+
+    
     
     return (
         <>
@@ -45,7 +47,7 @@ function Home({ themeToggler }) {
                     <a href="#Front-end">Front-end</a>
                     <a href="#Game-Development">Game Development</a>
                     <a href="#Data-Base">Data Base</a>
-                    <a href="#Meus-Favoritos">Meus Favoritos</a>
+                    <a href="/meusFavoritos">Meus Favoritos</a>
                 </nav>
                 
                 
@@ -75,6 +77,7 @@ function Home({ themeToggler }) {
                         {useMemo(() => (videosFrontFiltrados.map((video) => {
                             return (
                                 <Card
+                                    id={video.id}
                                     key= {video.id} 
                                     link = {video.link} 
                                     titulo = {video.titulo}
@@ -97,9 +100,10 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {useMemo(() => videosBackFiltrados.map((video) => {
+                        {useMemo(() => (videosBackFiltrados.map((video) => {
                             return (
                                 <Card
+                                    id={video.id}
                                     key= {video.id} 
                                     link = {video.link} 
                                     titulo = {video.titulo}
@@ -108,7 +112,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            }), [videosBackFiltrados])}
+                            })), [videosBackFiltrados])}
                     </motion.ul>  
                     
                     <h1 id='Mobile'>Mobile</h1>
@@ -122,9 +126,10 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {useMemo(() => videosMobileFiltrados.map((video) => {
+                        {useMemo(() => (videosMobileFiltrados.map((video) => {
                             return (
                                 <Card
+                                    id={video.id}
                                     key= {video.id} 
                                     link = {video.link} 
                                     titulo = {video.titulo}
@@ -133,7 +138,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            }), [videosMobileFiltrados])}
+                            })), [videosMobileFiltrados])}
                     </motion.ul>
 
                     <h1 id='Game-Development'>Game Development</h1>
@@ -147,9 +152,10 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {useMemo(() => videosGameFiltrados.map((video) => {
+                        {useMemo(() => (videosGameFiltrados.map((video) => {
                             return (
                                 <Card
+                                    id={video.id}
                                     key= {video.id} 
                                     link = {video.link} 
                                     titulo = {video.titulo}
@@ -158,7 +164,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            }), [videosGameFiltrados])}
+                            })), [videosGameFiltrados])}
                     </motion.ul>    
 
                     <h1 id='Data-Base'>Data Base</h1>
@@ -172,9 +178,10 @@ function Home({ themeToggler }) {
                         animate={{x: 0}}
                         transition={{duration: 0.3}}
                     >
-                        {useMemo(() => videosDataBaseFiltrados.map((video) => {
+                        {useMemo(() => (videosDataBaseFiltrados.map((video) => {
                             return (
                                 <Card
+                                    id={video.id}
                                     key= {video.id} 
                                     link = {video.link} 
                                     titulo = {video.titulo}
@@ -183,7 +190,7 @@ function Home({ themeToggler }) {
                                     assunto = {video.assunto}
                                 />
                             )
-                            }), [videosDataBaseFiltrados])}
+                            })), [videosDataBaseFiltrados])}
                     </motion.ul>    
                 </section>
             </main>

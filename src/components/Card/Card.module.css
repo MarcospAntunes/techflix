@@ -6,7 +6,12 @@
     margin-bottom: 100px;
 }
 
-
+.favorito {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    margin-left: 110px;
+}
 
 .card h2 {
     margin-left: 130px !important;
@@ -46,4 +51,11 @@ iframe {
         font-size: 12px !important;
         margin-left: 5px !important;
     } 
+
+    .favorito {
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        margin-left: 0;
+    }
 }
