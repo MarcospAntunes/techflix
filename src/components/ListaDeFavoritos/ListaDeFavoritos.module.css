@@ -1,0 +1,15 @@
+.containerFav {
+    overflow-y: auto;
+}
+
+.ListaFav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.CardFavoritos {
+    margin-bottom: 130px;
+}

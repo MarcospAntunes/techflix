@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
+
 export const FavoritesContext = createContext()
 FavoritesContext.displayName = "myFavorites"
 

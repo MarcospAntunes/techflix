@@ -1,23 +1,25 @@
 import React from "react";
-import videos from "../../json/db.json";
-import Card from "../../components/Card";
 import { useFavoriteContext } from "../../contexts/Favorites";
+import ListaDeFavoritos from "../../components/ListaDeFavoritos";
+import styles from './Favoritos.module.css'
+import Botao from '../../components/Botao'
+import { Link } from "react-router-dom";
+
 
 function Favoritos() {
-    const { favorite } = useFavoriteContext()
+    const {favorite} = useFavoriteContext()
+    
+    
     return (
-        <section>
-            <h2>Meus Favoritos</h2>
-            {favorite.map((video) => <Card 
-                key={video.id} 
-                id={video.id} 
-                link={video.link} 
-                titulo={video.titulo}
-                autor={video.autor}
-                categoria={video.categoria}
-                assunto={video.assunto}
-            />)}
+        <>  
+        <section className={styles.sectionFavoritos}>
+            {favorite.length === 0 ?
+                <h1>Você não possui favoritos!</h1> : <ListaDeFavoritos videos={favorite}/>}
+            <Botao><Link style={{color: 'black'}} to={'/home'}>Voltar</Link></Botao>
         </section>
+        
+        </>
+        
     )
 }
 
