@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import styled, { css } from "styled-components"
 import { AiOutlineClose } from 'react-icons/ai'
+import { Link } from "react-router-dom"
 
 const Container = styled.div`
     position: absolute;
@@ -68,7 +69,7 @@ export function MenuMobile({ menuIsVisible, setmenuIsVisible  }) {
                 <a href="#Front-end">Front-end</a>
                 <a href="#Game-Development">Game Development</a>
                 <a href="#Data-Base">Data Base</a>
-                <a href="/meusFavoritos">Meus Favoritos</a>
+                <Link to={'/meusFavoritos'}>Meus Favoritos</Link>
             </nav>
         </Container>
     )
