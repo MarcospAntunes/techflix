@@ -1,5 +1,6 @@
 .containerFav {
     overflow-y: auto;
+    width: 100vw;
 }
 
 .ListaFav {
@@ -8,8 +9,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-}
-
-.CardFavoritos {
-    margin-bottom: 130px;
+    overflow-x: hidden;
+    margin-right: 30px;
 }
