@@ -1,6 +1,7 @@
 .containerFav {
     overflow-y: auto;
     width: 100vw;
+    height: 100vh;
 }
 
 .ListaFav {
@@ -9,6 +10,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    overflow-x: hidden;
-    margin-right: 30px;
+    overflow: hidden;
+    margin: 30px;
 }
