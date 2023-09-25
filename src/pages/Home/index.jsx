@@ -2,12 +2,13 @@ import React, { useMemo } from 'react';
 import styles from './Home.module.css'
 import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai'
 import Card from '../../components/Card';
-import { motion } from "framer-motion";
 import { useState, useEffect, useRef} from 'react';
 import ModalUsuario from '../../components/ModalUsuario'
 import { videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
 import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
 import { MenuMobile } from '../../components/MenuMobile';
+import { Link } from 'react-router-dom';
+import Carrossel from '../../components/Carrossel';
 
 function Home({ themeToggler }) {
     const carrossel = useRef()
@@ -47,7 +48,7 @@ function Home({ themeToggler }) {
                     <a href="#Front-end">Front-end</a>
                     <a href="#Game-Development">Game Development</a>
                     <a href="#Data-Base">Data Base</a>
-                    <a href="/meusFavoritos">Meus Favoritos</a>
+                    <Link to={'/meusFavoritos'}>Meus Favoritos</Link>
                 </nav>
                 
                 
@@ -63,17 +64,7 @@ function Home({ themeToggler }) {
 
                 <section className={styles.galeriaDeVideos}>
                     <h1 id='Front-end'>Front-end</h1>
-                    <motion.ul 
-                        ref={carrossel} 
-                        className={styles.lista} 
-                        whileTap={{cursor: "grabbing"}} 
-                        drag='x' 
-                        dragConstraints={{right: 0, left: -width}}                        
-                        initial={{x: 100}} 
-                        animate={{x: 0}}
-                        transition={{duration: 0.3}}
-                    >
-                        
+                    <Carrossel>
                         {useMemo(() => (videosFrontFiltrados.map((video) => {
                             return (
                                 <Card
@@ -87,19 +78,10 @@ function Home({ themeToggler }) {
                                 />
                             )
                             })), [videosFrontFiltrados])}
-                    </motion.ul>
+                    </Carrossel>
 
                     <h1 id='Back-end'>Back-end</h1>
-                    <motion.ul 
-                        ref={carrossel} 
-                        className={styles.lista} 
-                        whileTap={{cursor: "grabbing"}} 
-                        drag='x' 
-                        dragConstraints={{right: 0, left: -width}}                        
-                        initial={{x: 100}} 
-                        animate={{x: 0}}
-                        transition={{duration: 0.3}}
-                    >
+                    <Carrossel>
                         {useMemo(() => (videosBackFiltrados.map((video) => {
                             return (
                                 <Card
@@ -113,19 +95,10 @@ function Home({ themeToggler }) {
                                 />
                             )
                             })), [videosBackFiltrados])}
-                    </motion.ul>  
+                    </Carrossel>  
                     
                     <h1 id='Mobile'>Mobile</h1>
-                    <motion.ul 
-                        ref={carrossel} 
-                        className={styles.lista} 
-                        whileTap={{cursor: "grabbing"}} 
-                        drag='x' 
-                        dragConstraints={{right: 0, left: -width}}                        
-                        initial={{x: 100}} 
-                        animate={{x: 0}}
-                        transition={{duration: 0.3}}
-                    >
+                    <Carrossel>
                         {useMemo(() => (videosMobileFiltrados.map((video) => {
                             return (
                                 <Card
@@ -139,19 +112,10 @@ function Home({ themeToggler }) {
                                 />
                             )
                             })), [videosMobileFiltrados])}
-                    </motion.ul>
+                    </Carrossel>
 
                     <h1 id='Game-Development'>Game Development</h1>
-                    <motion.ul 
-                        ref={carrossel} 
-                        className={styles.lista} 
-                        whileTap={{cursor: "grabbing"}} 
-                        drag='x' 
-                        dragConstraints={{right: 0, left: -width}} 
-                        initial={{x: 100}} 
-                        animate={{x: 0}}
-                        transition={{duration: 0.3}}
-                    >
+                    <Carrossel>
                         {useMemo(() => (videosGameFiltrados.map((video) => {
                             return (
                                 <Card
@@ -165,19 +129,10 @@ function Home({ themeToggler }) {
                                 />
                             )
                             })), [videosGameFiltrados])}
-                    </motion.ul>    
+                    </Carrossel>    
 
                     <h1 id='Data-Base'>Data Base</h1>
-                    <motion.ul 
-                        ref={carrossel} 
-                        className={styles.lista} 
-                        whileTap={{cursor: "grabbing"}} 
-                        drag='x' 
-                        dragConstraints={{right: 0, left: -width}} 
-                        initial={{x: 100}} 
-                        animate={{x: 0}}
-                        transition={{duration: 0.3}}
-                    >
+                    <Carrossel>
                         {useMemo(() => (videosDataBaseFiltrados.map((video) => {
                             return (
                                 <Card
@@ -191,7 +146,7 @@ function Home({ themeToggler }) {
                                 />
                             )
                             })), [videosDataBaseFiltrados])}
-                    </motion.ul>    
+                    </Carrossel>    
                 </section>
             </main>
         </>
