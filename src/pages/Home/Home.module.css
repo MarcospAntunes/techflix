@@ -70,15 +70,6 @@ nav a:hover {
     text-align: left !important;
 }
 
-.lista {
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    gap: 15px;
-    cursor: grab;
-    height: 500px;
-}
-
 @media screen and (max-width: 1070px) {
     .logo {
         font-size: 32px;
@@ -112,10 +103,5 @@ nav a:hover {
         margin: auto;
         margin-bottom: 15px;
         margin-left: 25px !important;
-    }
-
-    .lista {
-        gap: 5px;
-        height: 500px
     }
 }
