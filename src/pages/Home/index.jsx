@@ -1,14 +1,11 @@
 import React, { useMemo } from 'react';
 import styles from './Home.module.css'
-import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai'
 import Card from '../../components/Card';
 import { useState, useEffect, useRef} from 'react';
-import ModalUsuario from '../../components/ModalUsuario'
 import { videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
 import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
-import { MenuMobile } from '../../components/MenuMobile';
-import { Link } from 'react-router-dom';
 import Carrossel from '../../components/Carrossel';
+import Header from '../../components/Header';
 
 function Home({ themeToggler }) {
     const carrossel = useRef()
@@ -16,13 +13,8 @@ function Home({ themeToggler }) {
     useEffect(() => {
         setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
     }, [])
-
-    const [openModal, setOpenModal] = useState(false)
-
     const [search, setSearch] = useState('')
     const searchLowerCase = search.toLowerCase()
-
-    const [menuIsVisible, setmenuIsVisible] = useState(false)
 
     const videosBackFiltrados = videosBack.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
 
@@ -38,24 +30,7 @@ function Home({ themeToggler }) {
     
     return (
         <>
-            <header>
-                <h1 className={styles.logo}>TechFlix</h1>
-                <MenuMobile menuIsVisible={menuIsVisible} setmenuIsVisible={setmenuIsVisible} />
-                <nav>
-                    <a href="#">Início</a>
-                    <a href="#Back-end">Back-end</a>
-                    <a href="#Mobile">Mobile</a>
-                    <a href="#Front-end">Front-end</a>
-                    <a href="#Game-Development">Game Development</a>
-                    <a href="#Data-Base">Data Base</a>
-                    <Link to={'/meusFavoritos'}>Meus Favoritos</Link>
-                </nav>
-                
-                
-                <AiOutlineUser className={styles.usuarioIcon} onClick={() => setOpenModal(true)} />
-                <ModalUsuario isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} themeToggler={themeToggler} />
-                <AiOutlineMenu onClick={() => setmenuIsVisible(true)} className={styles.mobileMenu} /> 
-            </header>
+            <Header themeToggler={themeToggler}/>
 
             <main>
                 <section className={styles.inicio}>

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import styled, { css } from "styled-components"
 import { AiOutlineClose } from 'react-icons/ai'
-import { Link } from "react-router-dom"
+import Nav from "../Header/Nav"
 
 const Container = styled.div`
     position: absolute;
@@ -62,15 +62,7 @@ export function MenuMobile({ menuIsVisible, setmenuIsVisible  }) {
     return(
         <Container isvisible={menuIsVisible}>
             <AiOutlineClose size={45} onClick={() => setmenuIsVisible(false)} />
-            <nav>
-                <a href="#">Início</a>
-                <a href="#Back-end">Back-end</a>
-                <a href="#Mobile">Mobile</a>
-                <a href="#Front-end">Front-end</a>
-                <a href="#Game-Development">Game Development</a>
-                <a href="#Data-Base">Data Base</a>
-                <Link to={'/meusFavoritos'}>Meus Favoritos</Link>
-            </nav>
+            <Nav />
         </Container>
     )
 }
