@@ -7,17 +7,16 @@ import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 
 
-function Favoritos() {
+function Favoritos({ themeToggler }) {
     const {favorite} = useFavoriteContext()
     
     
     return (
         <>
-            <Header/> 
+            <Header themeToggler={themeToggler}/> 
             <section className={styles.sectionFavoritos}>
                 {favorite.length === 0 ?
-                    <h1>Você não possui favoritos!</h1> : <ListaDeFavoritos videos={favorite}/>}
-                <Botao><Link style={{color: 'black'}} to={'/home'}>Voltar</Link></Botao>
+                    <h1>Você não possui favoritos!</h1> : <ListaDeFavoritos videos={favorite}/>}         
             </section>
         </>
         
