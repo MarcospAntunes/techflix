@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './ListaDeFavoritos.module.css'
 import Card from '../Card'
-import Carrossel from '../Carrossel'
 
 
 function ListaDeFavoritos({ videos }) {

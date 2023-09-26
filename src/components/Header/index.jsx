@@ -1,6 +1,5 @@
-import React from "react"
+import React, { useState }  from "react"
 import styles from './Header.module.css'
-import { useState } from "react"
 import { MenuMobile } from "../MenuMobile"
 import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai'
 import ModalUsuario from '../../components/ModalUsuario'

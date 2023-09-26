@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicio from './pages/Inicio' ;
 import Home from './pages/Home';
@@ -7,7 +7,6 @@ import Erro404 from './pages/Erro404';
 import { lightTheme, darkTheme } from "./themes";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
-import { useState } from "react";
 import Favoritos from './pages/Favoritos';
 import FavoritesProvider from './contexts/Favorites';
 

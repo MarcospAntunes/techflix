@@ -1,7 +1,6 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect, useRef } from 'react';
 import styles from './Home.module.css'
 import Card from '../../components/Card';
-import { useState, useEffect, useRef} from 'react';
 import { videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
 import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
 import Carrossel from '../../components/Carrossel';
