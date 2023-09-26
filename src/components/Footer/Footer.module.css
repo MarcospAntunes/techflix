@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #223A7A;
+    width: 100vw;
+    height: 60px;
+    z-index: 1;
+}
+
+footer h3 {
+    margin-top: 10px;
+}
+
+footer span {
+    color: #223A7A;
+}
