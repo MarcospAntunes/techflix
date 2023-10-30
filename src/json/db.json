@@ -5,7 +5,8 @@
         "titulo": "5 Minutos de HTML Para Iniciar em Programação!",
         "autor": "Rafaella Ballerini",
         "categoria": "Front-end",
-        "assunto": "HTML"
+        "assunto": "HTML",
+        "banner": "https://i.ytimg.com/vi/3oSIqIqzN3M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "2",
@@ -13,7 +14,8 @@
         "titulo": "O que é variável e como declarar | Curso de JAvaScript",
         "autor": "Front Beginners",
         "categoria": "Front-end",
-        "assunto": "JavaScript"
+        "assunto": "JavaScript",
+        "banner": "https://i.ytimg.com/vi/JDk8g2l6VFU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "3",
@@ -21,7 +23,8 @@
         "titulo": "React JS // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Front-end",
-        "assunto": "ReactJs"
+        "assunto": "ReactJs",
+        "banner": "https://i.ytimg.com/vi/NhUr8cwDiiM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "4",
@@ -29,7 +32,8 @@
         "titulo": "Curso React: Criando componentes no React - #04",
         "autor": "Matheus Battisti",
         "categoria": "Front-end",
-        "assunto": "ReactJs"
+        "assunto": "ReactJs",
+        "banner": "https://i.ytimg.com/vi/-wrsG0IGc-M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "5",
@@ -37,7 +41,8 @@
         "titulo": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Front-end",
-        "assunto": "Angular"
+        "assunto": "Angular",
+        "banner": "https://i.ytimg.com/vi/Yf0rC7dERjg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "6",
@@ -45,7 +50,8 @@
         "titulo": "Seu primeiro código HTML - @Curso em Vídeo HTML5 e CSS3",
         "autor": "Curso em Vídeo",
         "categoria": "Front-end",
-        "assunto": "HTML"
+        "assunto": "HTML",
+        "banner": "https://i.ytimg.com/vi/E6CdIawPTh0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "7",
@@ -53,7 +59,8 @@
         "titulo": "Estilos CSS externos - @Curso em Vídeo HTML5 e CSS3",
         "autor": "Curso em Vídeo",
         "categoria": "Front-end",
-        "assunto": "CSS"
+        "assunto": "CSS",
+        "banner": "https://i.ytimg.com/vi/-i1JVMspDJQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "8",
@@ -61,7 +68,8 @@
         "titulo": "Bootstrap // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Front-end",
-        "assunto": "Bootstrap"
+        "assunto": "Bootstrap",
+        "banner": "https://i.ytimg.com/vi/zEi62PpFezU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "9",
@@ -69,7 +77,8 @@
         "titulo": "Operadores and e or, if, else if e else - JavaScript do zero - Aula 17 (curso para iniciantes)",
         "autor": "Roger Melo",
         "categoria": "Front-end",
-        "assunto": "JavaScript"
+        "assunto": "JavaScript",
+        "banner": "https://i.ytimg.com/vi/dh2vLpjHaJI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "10",
@@ -77,7 +86,8 @@
         "titulo": "Introdução a Métodos - JavaScript do zero - Aula 19 (curso para iniciantes)",
         "autor": "Roger Melo",
         "categoria": "Front-end",
-        "assunto": "JavaScript"
+        "assunto": "JavaScript",
+        "banner": "https://i.ytimg.com/vi/mdIaSxT5564/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "11",
@@ -85,7 +95,8 @@
         "titulo": "CSS GRID na PRÁTICA - Tutorial Completo",
         "autor": "Fernanda Kipper | Dev",
         "categoria": "Front-end",
-        "assunto": "CSS"
+        "assunto": "CSS",
+        "banner": "https://i.ytimg.com/vi/NvnJRLTG_5Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "12",
@@ -93,7 +104,8 @@
         "titulo": "Guia definitivo do CSS FLEXBOX - Aprenda na prática",
         "autor": "Fernanda Kipper | Dev",
         "categoria": "Front-end",
-        "assunto": "CSS" 
+        "assunto": "CSS",
+        "banner": "https://i.ytimg.com/vi/sJn-XAlsuvY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "13",
@@ -104,7 +116,8 @@
         "$or": [
             {"assunto": "JavaScript"},
             {"assunto": "HTML"}
-        ]
+        ],
+        "banner": "https://i.ytimg.com/vi/Ma1BYvUCUk0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "14",
@@ -112,7 +125,8 @@
         "titulo": "O que é CSS? (Seletores, Propriedades e Valores)",
         "autor": "Rafaella Ballerini",
         "categoria": "Front-end",
-        "assunto": "CSS"
+        "assunto": "CSS",
+        "banner": "https://i.ytimg.com/vi/LWU2OR19ZG4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "15",
@@ -120,7 +134,8 @@
         "titulo": "Curso de Vue 3: #03 - Inputs e Data Binding",
         "autor": "Matheus Battisti",
         "categoria": "Front-end",
-        "assunto": "VueJs"
+        "assunto": "VueJs",
+        "banner": "https://i.ytimg.com/vi/bdD04cHOKfY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "16",
@@ -128,7 +143,8 @@
         "titulo": "Java para Haters em 100 segundos ft.@cursodetecnologia",
         "autor": "Fiasco",
         "categoria": "Back-end",
-        "assunto": "Java"
+        "assunto": "Java",
+        "banner": "https://i.ytimg.com/vi/K8bexGgIyBw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "17",
@@ -136,7 +152,8 @@
         "titulo": "PYTHON para HATERS em 100 segundos",
         "autor": "Fiasco",
         "categoria": "Back-end",
-        "assunto": "Python"
+        "assunto": "Python",
+        "banner": "https://i.ytimg.com/vi/vCialiFDCtI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "18",
@@ -144,7 +161,8 @@
         "titulo": "Criando um serviço RESTful com Java - Aula 2 - Criando o projeto no Java",
         "autor": "DevMedia",
         "categoria": "Back-end",
-        "assunto": "Java"
+        "assunto": "Java",
+        "banner": "https://i.ytimg.com/vi/jaylVS1JGQc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "19",
@@ -152,7 +170,8 @@
         "titulo": "Live Coding: Criando aplicação NODE JS do ZERO",
         "autor": "Fernanda Kipper | Dev",
         "categoria": "Back-end",
-        "assunto": "NodeJs"
+        "assunto": "NodeJs",
+        "banner": "https://i.ytimg.com/vi/GVF--Rl3bP4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "20",
@@ -160,7 +179,8 @@
         "titulo": "Curso de Node.js Para Completos Iniciantes",
         "autor": "Felipe Rocha",
         "categoria": "Back-end",
-        "assunto": "NodeJs"
+        "assunto": "NodeJs",
+        "banner": "https://i.ytimg.com/vi/IOfDoyP1Aq0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "21",
@@ -168,7 +188,8 @@
         "titulo": "Materiais para aprender a linguagem Ruby!",
         "autor": "Cody By Duda",
         "categoria": "Back-end",
-        "assunto": "Ruby"
+        "assunto": "Ruby",
+        "banner": "https://i.ytimg.com/vi/olgiq-QEI1Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "22",
@@ -176,7 +197,8 @@
         "titulo": "Curso de Python #06 - Tipos Primitivos e Saída de Dados",
         "autor": "Curso em Vídeo",
         "categoria": "Back-end",
-        "assunto": "Python"
+        "assunto": "Python",
+        "banner": "https://i.ytimg.com/vi/hdDHg1p3YVc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "23",
@@ -184,7 +206,8 @@
         "titulo": "Sistema de Login em PHP | 3 - Iniciando Back-end",
         "autor": "Rafael Capoani",
         "categoria": "Back-end",
-        "assunto": "PHP"
+        "assunto": "PHP",
+        "banner": "https://i.ytimg.com/vi/vJVBLURsmdc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "24",
@@ -192,7 +215,8 @@
         "titulo": "Aula de Programação Orientada a Objetos em Kotlin do básico ao avançado",
         "autor": "Lucas Montano",
         "categoria": "Back-end",
-        "assunto": "Kotlin"
+        "assunto": "Kotlin",
+        "banner": "https://i.ytimg.com/vi/iNCJfI48cKQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "25",
@@ -200,7 +224,8 @@
         "titulo": "Golang (A Linguagem do Futuro?) // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Back-end",
-        "assunto": "Golang"
+        "assunto": "Golang",
+        "banner": "https://i.ytimg.com/vi/2kyNEf9IsBQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "26",
@@ -208,7 +233,8 @@
         "titulo": "APRENDA C# BÁSICO EM 30 MINUTOS! Crie Seus Jogos há 1 ano 27 minutos 46.486 visualizações",
         "autor": "Crie Seus Jogos",
         "categoria": "Back-end",
-        "assunto": "C#"
+        "assunto": "C#",
+        "banner": "https://i.ytimg.com/vi/DA-DQsmPItU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "27",
@@ -216,7 +242,8 @@
         "titulo": "Curso de C# - Aprenda o essencial em 5 HORAS",
         "autor": "Victor Lima",
         "categoria": "Back-end",
-        "assunto": "C#"
+        "assunto": "C#",
+        "banner": "https://i.ytimg.com/vi/PKMm-cHe56g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "28",
@@ -224,7 +251,8 @@
         "titulo": "C++ (A Linguagem Imortal de Verdade) // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Back-end",
-        "assunto": "C++"
+        "assunto": "C++",
+        "banner": "https://i.ytimg.com/vi/AQdABlihlGs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "29",
@@ -232,7 +260,8 @@
         "titulo": "Spring Boot 3 | Curso Completo 2023",
         "autor": "Michelli Brito",
         "categoria": "Back-end",
-        "assunto": "Spring"
+        "assunto": "Spring",
+        "banner": "https://i.ytimg.com/vi/wlYvA2b1BWI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "30",
@@ -240,7 +269,8 @@
         "titulo": "O que é Spring Framework? #Hipsterspontotube",
         "autor": "Alura",
         "categoria": "Back-end",
-        "assunto": "Spring"
+        "assunto": "Spring",
+        "banner": "https://i.ytimg.com/vi/5XPojnx9bb8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "31",
@@ -248,7 +278,8 @@
         "titulo": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
         "autor": "Filipe Deschamps",
         "categoria": "Mobile",
-        "assunto": "Flutter"
+        "assunto": "Flutter",
+        "banner": "https://i.ytimg.com/vi/J4BVaXkwmM8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "32",
@@ -256,7 +287,8 @@
         "titulo": "Curso FlutterFlow Gratuito [2023] Do Zero ao App",
         "autor": "No-code Start-Up",
         "categoria": "Mobile",
-        "assunto": "Flutter"
+        "assunto": "Flutter",
+        "banner": "https://i.ytimg.com/vi/K6y6yd3gEXA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "33",
@@ -264,7 +296,8 @@
         "titulo": "INICIANDO NO REACT NATIVE EM 2022",
         "autor": "Rocketseat",
         "categoria": "Mobile",
-        "assunto": "React Native"
+        "assunto": "React Native",
+        "banner": "https://i.ytimg.com/vi/ApSHnjXeAq0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "34",
@@ -272,7 +305,8 @@
         "titulo": "Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners",
         "autor": "JavaScript Mastery",
         "categoria": "Mobile",
-        "assunto": "React Native"
+        "assunto": "React Native",
+        "banner": "https://i.ytimg.com/vi/mJ3bGvy0WAY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "35",
@@ -280,7 +314,8 @@
         "titulo": "Como funciona o desenvolvimento de aplicativos com o Kotlin Multiplataforma? (Progamador mobile)",
         "autor": "Attekita Dev",
         "categoria": "Mobile",
-        "assunto": "Kotlin"
+        "assunto": "Kotlin",
+        "banner": "https://i.ytimg.com/vi/Rg9PS_DDILQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "36",
@@ -288,7 +323,8 @@
         "titulo": "CURSO DE KOTLIN - TUTORIAL PARA INICIANTES ANDROID",
         "autor": "Tiago Aguiar",
         "categoria": "Mobile",
-        "assunto": "Kotlin"
+        "assunto": "Kotlin",
+        "banner": "https://i.ytimg.com/vi/r_6Ku38sA-c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "37",
@@ -296,7 +332,8 @@
         "titulo": "Qual minha opinião sobre KOTLIN KMM? #062",
         "autor": "Ask Lucas Montano Show",
         "categoria": "Mobile",
-        "assunto": "Kotlin"
+        "assunto": "Kotlin",
+        "banner": "https://i.ytimg.com/vi/sBWy4mbJ3CM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "38",
@@ -304,7 +341,8 @@
         "titulo": "APRENDA a DEPURAR de froma EFICAZ no REACT NATIVE (useEffect, useState, Promise)",
         "autor": "Coffstack",
         "categoria": "Mobile",
-        "assunto": "React Native"
+        "assunto": "React Native",
+        "banner": "https://i.ytimg.com/vi/PBiNS0aqmfQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "39",
@@ -312,7 +350,8 @@
         "titulo": "Swift (a linguagem do IOS) // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Mobile",
-        "assunto": "Swift"
+        "assunto": "Swift",
+        "banner": "https://i.ytimg.com/vi/ELa-PgWlYDI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "40",
@@ -320,7 +359,8 @@
         "titulo": "Aprenda SWIFT e se torne um desenvolvedor IOS com cursos GRATUITOS",
         "autor": "Attekita Dev",
         "categoria": "Mobile",
-        "assunto": "Swift"
+        "assunto": "Swift",
+        "banner": "https://i.ytimg.com/vi/OV47giYphmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "41",
@@ -328,7 +368,8 @@
         "titulo": "Aprendi a Programar Apps IOS com esse Curso Swift Grátis e SwiftUI de Starford (iPhone, iPad, etc.)",
         "autor": "Filipe Deschamps",
         "categoria": "Mobile",
-        "assunto": "Swift"
+        "assunto": "Swift",
+        "banner": "https://i.ytimg.com/vi/r18Bvr3Dyfg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "42",
@@ -336,7 +377,8 @@
         "titulo": "Guia Completo para Programação Android (Iniciantes)",
         "autor": "Lucas Montano",
         "categoria": "Mobile",
-        "assunto": "Android"
+        "assunto": "Android",
+        "banner": "https://i.ytimg.com/vi/0ee7EB641wI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "43",
@@ -344,7 +386,8 @@
         "titulo": "Desenvolvimento Android #HipstersPontoTube",
         "autor": "Alura",
         "categoria": "Mobile",
-        "assunto": "Android"
+        "assunto": "Android",
+        "banner": "https://i.ytimg.com/vi/fWscDFHKgw8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "44",
@@ -352,7 +395,8 @@
         "titulo": "Flutter vai acabar em 2024?",
         "autor": "Lucas Montano",
         "categoria": "Mobile",
-        "assunto": "Flutter"
+        "assunto": "Flutter",
+        "banner": "https://i.ytimg.com/vi/A1NjONzcHrY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "45",
@@ -360,7 +404,8 @@
         "titulo": "Flutter // Dicionário do Programador",
         "autor": "Código Fonte TV",
         "categoria": "Mobile",
-        "assunto": "Flutter"
+        "assunto": "Flutter",
+        "banner": "https://i.ytimg.com/vi/XkEA4xT34jg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "46",
@@ -368,7 +413,8 @@
         "titulo": "Introdução à programação de jogos em C# (Aula 01 - Variáveis e Métodos)",
         "autor": "",
         "categoria": "Game Development",
-        "assunto": "C#"
+        "assunto": "C#",
+        "banner": "https://i.ytimg.com/vi/QbeUlT_MuZ0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "47",
@@ -376,7 +422,8 @@
         "titulo": "APRENDA UNITY | TUTORIAL PARA INICIANTES",
         "autor": "Crie Seus Jogos",
         "categoria": "Game Development",
-        "assunto": "Unity"
+        "assunto": "Unity",
+        "banner": "https://i.ytimg.com/vi/hMrPCkCqb4U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "48",
@@ -384,7 +431,8 @@
         "titulo": "Como Criar Jogos com Unreal Engine 5?",
         "autor": "Neriverso",
         "categoria": "Game Development",
-        "assunto": "Unreal Engine"
+        "assunto": "Unreal Engine",
+        "banner": "https://i.ytimg.com/vi/6aHjVn7v3j0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "49",
@@ -392,7 +440,8 @@
         "titulo": "Aprenda Programação C# para Jogos na Unity",
         "autor": "Desenvolvedor Unity",
         "categoria": "Game Development",
-        "assunto": "C#"
+        "assunto": "C#",
+        "banner": "https://i.ytimg.com/vi/WYGN2V1yHDo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "50",
@@ -400,7 +449,8 @@
         "titulo": "Ep01 - Introdução GODOT 4.0 - Criando um Jogo de Plataforma 2D",
         "autor": "Clécio Espindola GameDev",
         "categoria": "Game Development",
-        "assunto": "Godot"
+        "assunto": "Godot",
+        "banner": "https://i.ytimg.com/vi/egniMIdMoMU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "51",
@@ -408,7 +458,8 @@
         "titulo": "#1 - Tutorial - como criar jogos sem programar com Clickteam Fusion 2.5",
         "autor": "Papai Game Maker",
         "categoria": "Game Development",
-        "assunto": "Clickteam Fusion"
+        "assunto": "Clickteam Fusion",
+        "banner": "https://i.ytimg.com/vi/XDg7ePBegHc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "52",
@@ -416,7 +467,8 @@
         "titulo": "Como fazer jogos em Python! Curso Pygame #01 - Criando uma janela",
         "autor": "João Tinti",
         "categoria": "Game Development",
-        "assunto": "Python"
+        "assunto": "Python",
+        "banner": "https://i.ytimg.com/vi/k7PLSocEREs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "53",
@@ -424,7 +476,8 @@
         "titulo": "PONG: o jogo de MILHÕES de dólares que você vai PROGRAMAR em poucos minutos | DO Zero ao Pixel #7",
         "autor": "O Programador",
         "categoria": "Game Development",
-        "assunto": "C#"
+        "assunto": "C#",
+        "banner": "https://i.ytimg.com/vi/-AAZ10waxqY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "54",
@@ -432,7 +485,8 @@
         "titulo": "Aprenda a PROGRAMAR o seu primeiro programa com uma aula de culinária | Do Zero ao Pixel #2",
         "autor": "O Programador",
         "categoria": "Game Development",
-        "assunto": "C#"
+        "assunto": "C#",
+        "banner": "https://i.ytimg.com/vi/YO624GxXhLM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "55",
@@ -443,7 +497,8 @@
         "$or": [
             {"assunto": "C++"},
             {"assunto": "C#"}
-        ]
+        ],
+        "banner": "https://i.ytimg.com/vi/NFS4tb4GwdU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "56",
@@ -451,7 +506,8 @@
         "titulo": "QUAL LINGUAGEM USAR PARA PROGRAMAR JOGOS?",
         "autor": "Farmando XP",
         "categoria": "Game Development",
-        "assunto": ""
+        "assunto": "",
+        "banner": "https://i.ytimg.com/vi/V5-jUQi-djk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "57",
@@ -459,7 +515,8 @@
         "titulo": "CRIANDO UM JOGO 2D DE PLATAFORMA NA UNITY | AULA 07",
         "autor": "Crie Seus Jogos",
         "categoria": "Game Development",
-        "assunto": "Unity"
+        "assunto": "Unity",
+        "banner": "https://i.ytimg.com/vi/cjMKi8nwv9c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "58",
@@ -467,7 +524,8 @@
         "titulo": "CRIANDO UM JOGO 2D DE PLATAFORMA NA UNITY | AULA 01",
         "autor": "Crie Seus Jogos",
         "categoria": "Game Development",
-        "assunto": "Unity"
+        "assunto": "Unity",
+        "banner": "https://i.ytimg.com/vi/Vt7VtkWb3R4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "59",
@@ -475,7 +533,8 @@
         "titulo": "COMO CRIAR PIXEL ART NO PISKEL (TUTORIAL) | CRIE SEUS JOGOS",
         "autor": "Crie Seus Jogos",
         "categoria": "Game Development",
-        "assunto": "Pixel Art"
+        "assunto": "Pixel Art",
+        "banner": "https://i.ytimg.com/vi/bZcxxA2OxwU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "60",
@@ -483,7 +542,8 @@
         "titulo": "CRIANDO E EXPORTANDO UMA ANIMAÇÃO EM PIXEL ART NO PISKEL | CRIE SEUS JOGOS",
         "autor": "Crie Seus Jogos",
         "categoria": "Game Development",
-        "assunto": "Pixel Art"
+        "assunto": "Pixel Art",
+        "banner": "https://i.ytimg.com/vi/DrcMWt94QUQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "61",
@@ -491,7 +551,8 @@
         "titulo": "Fundamentos do SQL - Curso de SQL - Aula 1",
         "autor": "Hastag Programação",
         "categoria": "Database",
-        "assunto": "SQL"
+        "assunto": "SQL",
+        "banner": "https://i.ytimg.com/vi/ncgEQBONI_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "62",
@@ -499,7 +560,8 @@
         "titulo": "Curso SQL Completo 2023 [Iniciantes] + Desafios + Muita Prática",
         "autor": "Dev Aprender | Jhonatan de Souza",
         "categoria": "Database",
-        "assunto": "SQL"
+        "assunto": "SQL",
+        "banner": "https://i.ytimg.com/vi/G7bMwefn8RQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "63",
@@ -507,7 +569,8 @@
         "titulo": "Primeiros Passos no PostgreSQL",
         "autor": "Hastag Programação",
         "categoria": "Database",
-        "assunto": "PostgreSQL"
+        "assunto": "PostgreSQL",
+        "banner": "https://i.ytimg.com/vi/l5VXbLNYu2U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "64",
@@ -515,7 +578,8 @@
         "titulo": "OVERVIEW E FUNDAMENTOS DO POSTGRESQL | POSTGRESQL #01",
         "autor": "Robson V. Leite",
         "categoria": "Database",
-        "assunto": "PostgreSQL"
+        "assunto": "PostgreSQL",
+        "banner": "https://i.ytimg.com/vi/j4Zx6qcLPbE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "65",
@@ -523,7 +587,8 @@
         "titulo": "O que é SQL Server? Quais são seus principais componentes?",
         "autor": "DBA PRO",
         "categoria": "Database",
-        "assunto": "SQL Server"
+        "assunto": "SQL Server",
+        "banner": "https://i.ytimg.com/vi/9lIeeVTTC5s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "66",
@@ -531,7 +596,8 @@
         "titulo": "Primeiros Passos no SQL Server",
         "autor": "Hastag Programação",
         "categoria": "Database",
-        "assunto": "SQL Server"
+        "assunto": "SQL Server",
+        "banner": "https://i.ytimg.com/vi/rwHv1DvyiCc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "67",
@@ -539,7 +605,8 @@
         "titulo": "Primeiros Passos no Oracle SQL Developer",
         "autor": "Hastag Programação",
         "categoria": "Database",
-        "assunto": "Oracle SQL"
+        "assunto": "Oracle SQL",
+        "banner": "https://i.ytimg.com/vi/9dKZsDeaoPY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "68",
@@ -547,7 +614,8 @@
         "titulo": " FUNDAMENTOS DE PL/SQL I: INSTALANDO ORACLE",
         "autor": "Vanny",
         "categoria": "Database",
-        "assunto": "Oracle SQL"
+        "assunto": "Oracle SQL",
+        "banner": "https://i.ytimg.com/vi/1s1p0Aq8atU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "69",
@@ -555,7 +623,8 @@
         "titulo": "Curso Modelagem de Dados e SQL | Guia Para Iniciantes",
         "autor": "No-code Start-Up",
         "categoria": "Database",
-        "assunto": "Modelagem de Dados"
+        "assunto": "Modelagem de Dados",
+        "banner": "https://i.ytimg.com/vi/SEnnucNP1h0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "70",
@@ -563,7 +632,8 @@
         "titulo": "Modelagem de Dados - modelo conceitual, lógico e físico",
         "autor": "Miriam TechCod",
         "categoria": "Database",
-        "assunto": "Modelagem de Dados"
+        "assunto": "Modelagem de Dados",
+        "banner": "https://i.ytimg.com/vi/8CkMX2qXgdY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "71",
@@ -571,7 +641,8 @@
         "titulo": "DESIGN DE BANCO DE DADOS E MODELAGEM DE DADOS - SBD #03",
         "autor": "Matheus Battisti",
         "categoria": "Database",
-        "assunto": "Modelagem de Dados"
+        "assunto": "Modelagem de Dados",
+        "banner": "https://i.ytimg.com/vi/DFoRSgn9Y50/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "72",
@@ -579,7 +650,8 @@
         "titulo": "O que é SQL",
         "autor": "Dotec",
         "categoria": "Database",
-        "assunto": "SQL"
+        "assunto": "SQL",
+        "banner": "https://i.ytimg.com/vi/3YYi-c4E1aI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "73",
@@ -587,7 +659,8 @@
         "titulo": "MySQL - The Basics // Learn SQL in 23 Easy Steps",
         "autor": "Fireship",
         "categoria": "Database",
-        "assunto": "SQL"
+        "assunto": "SQL",
+        "banner": "https://i.ytimg.com/vi/Cz3WcZLRaWc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "74",
@@ -595,7 +668,8 @@
         "titulo": "Curso MySQL #11 - SELECT (Parte 1)",
         "autor": "Curso em Vídeo",
         "categoria": "Database",
-        "assunto": "SQL"
+        "assunto": "SQL",
+        "banner": "https://i.ytimg.com/vi/GaOlyL3Uv9M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     },
     {
         "id": "75",
@@ -603,6 +677,7 @@
         "titulo": "Curso MySQL #11 - SELECT (Parte 2)",
         "autor": "Curso em Vídeo",
         "categoria": "Database",
-        "assunto": "SQL"
+        "assunto": "SQL",
+        "banner": "https://i.ytimg.com/vi/q4hPo83-Buo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz0c9STUNiOsxARgIfDgMj248dbg"
     }
 ]
