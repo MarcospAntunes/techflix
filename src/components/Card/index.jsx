@@ -1,31 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Card.module.css";
 import { motion } from "framer-motion";
-import favoritar from './favorito-desativado.png'
-import desfavoritar from './favorito-ativo.png'
-import { useFavoriteContext } from "../../contexts/Favorites";
+import ModalVideo from "./Modal";
 
-function Card({ id, link, titulo, autor, categoria, assunto  }) {
-
-    const { favorite, addFavorite } = useFavoriteContext()
-    const isFavorite = favorite.some((fav) => fav.id === id)
-    const icone = isFavorite ? desfavoritar : favoritar
-
+function Card({ id, link, titulo, autor, categoria, assunto, banner }) {
+    const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <motion.li className={styles.card}>
-            <iframe width="560" height="315" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            <h2>{titulo} </h2>
-            <p>{categoria}</p>
-            <p>{autor}</p>
-            <img 
-                src={icone}
-                alt="IconeFav"
-                className={styles.favorito}
-                onClick={() => addFavorite({ id, link, titulo, autor, categoria, assunto })}
-            />
+        <>
+            <motion.li className={styles.card}>
+                <img src={banner} alt={titulo} onClick={() => setIsOpen(true)} className={styles.banner} />
             
-        </motion.li>
+            </motion.li>
+            <ModalVideo
+                isOpen={isOpen}
+                setIsOpen={() => setIsOpen(!isOpen)}
+                id={id}
+                link={link}
+                titulo={titulo}
+                autor={autor}
+                categoria={categoria}
+                assunto={assunto}
+                banner={banner}
+            />
+        </>
     )
 }
 

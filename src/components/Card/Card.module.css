@@ -1,31 +1,14 @@
 .card {
-    width: 560px;
-    height: 400px;
+    width: 260px;
+    height: 250px;
     text-align: center;
     list-style: none;
-    margin-bottom: 100px;
 }
 
-.favorito {
-    width: 42px;
-    height: 42px;
+.banner {
+    width: 250px;
+    height: 180px;
     cursor: pointer;
-    margin-left: 110px;
-}
-
-.card h2 {
-    margin-left: 130px !important;
-}
-
-iframe {
-    border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.534);
-    margin-left: 60px
-}
-
-.card p {
-    margin: 5px 0px;
-    margin-left: 130px !important;
 }
 
 @media screen and (min-width: 100px) and (max-width: 1024px) {
@@ -35,28 +18,5 @@ iframe {
         margin-top: 30px;
         margin-bottom: 100px;
         margin-left: 5px !important;
-    }
-
-    iframe {
-        width: 280px;
-        height: 250px;
-        margin-left: 0px;
-    }
-
-    .card h2 {
-        font-size: 18px !important;
-        margin-left: 5px !important;
-    }
-    
-    .card p {
-        font-size: 12px !important;
-        margin-left: 5px !important;
-    } 
-
-    .favorito {
-        width: 42px;
-        height: 42px;
-        cursor: pointer;
-        margin-left: 0;
     }
 }

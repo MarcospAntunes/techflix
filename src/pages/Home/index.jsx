@@ -50,6 +50,7 @@ function Home({ themeToggler }) {
                                     autor = {video.autor}
                                     categoria = {video.categoria}
                                     assunto = {video.assunto}
+                                    banner = {video.banner}
                                 />
                             )
                             })), [videosFrontFiltrados])}
@@ -67,6 +68,7 @@ function Home({ themeToggler }) {
                                     autor = {video.autor}
                                     categoria = {video.categoria}
                                     assunto = {video.assunto}
+                                    banner = {video.banner}
                                 />
                             )
                             })), [videosBackFiltrados])}
@@ -84,6 +86,7 @@ function Home({ themeToggler }) {
                                     autor = {video.autor}
                                     categoria = {video.categoria}
                                     assunto = {video.assunto}
+                                    banner = {video.banner}
                                 />
                             )
                             })), [videosMobileFiltrados])}
@@ -101,6 +104,7 @@ function Home({ themeToggler }) {
                                     autor = {video.autor}
                                     categoria = {video.categoria}
                                     assunto = {video.assunto}
+                                    banner = {video.banner}
                                 />
                             )
                             })), [videosGameFiltrados])}
@@ -118,6 +122,7 @@ function Home({ themeToggler }) {
                                     autor = {video.autor}
                                     categoria = {video.categoria}
                                     assunto = {video.assunto}
+                                    banner = {video.banner}
                                 />
                             )
                             })), [videosDataBaseFiltrados])}

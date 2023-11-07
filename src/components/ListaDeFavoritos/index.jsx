@@ -18,6 +18,7 @@ function ListaDeFavoritos({ videos }) {
                 autor={video.autor}
                 categoria={video.categoria}
                 assunto={video.assunto}
+                banner={video.banner}
             />)}
           </ul>
         </section>
