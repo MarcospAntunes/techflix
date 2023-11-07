@@ -78,34 +78,42 @@ const ModalStyled = styled.div`
         }
 
         @media screen and (min-width: 100px) and (max-width: 1024px) {
+            width: 360px;
+            
+            .closeModal {
+                width: 32px;
+                height: 32px;
+            }
+            
             iframe {
-                width: 280px;
-                height: 250px;
+                width: 100%;
+                height: 265px;
                 margin-left: 0px;
+                margin-bottom: 10px;
             }
 
             h2 {
-                font-size: 18px !important;
+                font-size: 16px !important;
                 margin-left: 5px !important;
             }
             
             p {
                 font-size: 12px !important;
-                margin-left: 5px !important;
+                margin-bottom: 0;
             } 
 
             .favorito {
-                width: 42px;
-                height: 42px;
-                cursor: pointer;
+                width: 38px;
+                height: 38px;
                 margin-left: 0;
+                cursor: pointer;
             }
         }
         
 
         @media screen and (min-width: 281px) and (max-width: 500px) {
         width: 80vw;
-        height: 50vh;
+        height: 60vh;
     }
     `}
 `
