@@ -1,5 +1,3 @@
-import favoritar from './favorito-desativado.png'
-import desfavoritar from './favorito-ativo.png'
 import { useFavoriteContext } from '../../../contexts/Favorites'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { ModalStyled } from './modalVideoStyle'
@@ -9,7 +7,6 @@ function ModalVideo({ isOpen, setIsOpen, id, link, titulo, autor, categoria, ass
 
     const { favorite, addFavorite } = useFavoriteContext()
     const isFavorite = favorite.some((fav) => fav.id === id)
-    const icone = isFavorite ? desfavoritar : favoritar
 
     
     if(isOpen) {
