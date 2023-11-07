@@ -39,6 +39,10 @@ const Container = styled.div`
         transition: 0.3s
     }
 
+    nav > a {
+        color: ${({ theme }) => theme.link};
+    }
+
     ${({ isvisible }) => isvisible && css`
         opacity: 1;
         pointer-events: auto;

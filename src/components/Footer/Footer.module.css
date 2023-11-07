@@ -6,6 +6,7 @@ footer {
     border-top: 1px solid #223A7A;
     width: 100vw;
     height: 60px;
+    text-align: center;
     z-index: 1;
 }
 

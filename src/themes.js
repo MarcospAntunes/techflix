@@ -4,7 +4,8 @@ export const  lightTheme = {
     text: '#000',
     buttonBg: '#1C1B1B',
     buttonText: '#fff',
-    pesquisa: 'white'
+    pesquisa: 'white',
+    link: '#fff'
 }
 
 export const  darkTheme = {
@@ -13,5 +14,6 @@ export const  darkTheme = {
     text: '#fff',
     buttonBg: '#fff',
     buttonText: 'black',
-    pesquisa: 'black'
+    pesquisa: 'black',
+    link: '#fff'
 }

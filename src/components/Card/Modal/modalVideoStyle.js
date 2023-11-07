@@ -112,8 +112,37 @@ const ModalStyled = styled.div`
         
 
         @media screen and (min-width: 281px) and (max-width: 500px) {
-        width: 80vw;
+        width: 90vw;
         height: 60vh;
+
+        .closeModal {
+                width: 36px;
+                height: 36px;
+            }
+            
+            iframe {
+                width: 100%;
+                height: 400px;
+                margin-left: 0px;
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-size: 22px !important;
+                margin-left: 0 !important;
+            }
+            
+            p {
+                font-size: 16px !important;
+                margin-bottom: 5px;
+            } 
+
+            .favorito {
+                width: 38px;
+                height: 38px;
+                margin-left: 0;
+                cursor: pointer;
+            }
     }
     `}
 `
