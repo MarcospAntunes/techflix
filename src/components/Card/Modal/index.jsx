@@ -7,7 +7,6 @@ function ModalVideo({ isOpen, setIsOpen, id, link, titulo, autor, categoria, ass
 
     const { favorite, addFavorite } = useFavoriteContext()
     const isFavorite = favorite.some((fav) => fav.id === id)
-
     
     if(isOpen) {
         return (
@@ -31,7 +30,6 @@ function ModalVideo({ isOpen, setIsOpen, id, link, titulo, autor, categoria, ass
                     
                 </ModalStyled>
             </ModalStyled>
-            
         )
     }
     return null 

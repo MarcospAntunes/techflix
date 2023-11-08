@@ -11,24 +11,25 @@ const ModalStyled = styled.div`
         bottom: 0;
         left: 0;
         right: 0;
+        width: 100vw;
+        height: 100vh;
         background-color: rgba(0, 0, 0, 0.7);
         z-index: 1000;
     `}
 
     ${props => props.$conteudoModal && css`
-        width: 560px;
+        position: fixed;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        width: 560px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: ${({ theme }) => theme.div};
-        border-radius: 10px;
         border: none;
         border-radius: 15px;
+        background-color: ${({ theme }) => theme.div};
         color: ${({ theme }) => theme.body === '#fff' ? 'white' : 'black'};
 
         iframe {
@@ -112,10 +113,10 @@ const ModalStyled = styled.div`
         
 
         @media screen and (min-width: 281px) and (max-width: 500px) {
-        width: 90vw;
-        height: 60vh;
+            width: 90vw;
+            height: 60vh;
 
-        .closeModal {
+            .closeModal {
                 width: 36px;
                 height: 36px;
             }

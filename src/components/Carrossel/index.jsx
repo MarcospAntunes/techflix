@@ -5,6 +5,7 @@ import styles from './Carrossel.module.css'
 function Carrossel({ children }) {
     const carrossel = useRef()
     const [width, setWidth] = useState(0)
+
     useEffect(() => {
         setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
     }, [])
@@ -19,7 +20,7 @@ function Carrossel({ children }) {
         animate={{x: 0}}
         transition={{duration: 0.3}}
     >
-        {children}
+      {children}
     </motion.ul>
   )
 }

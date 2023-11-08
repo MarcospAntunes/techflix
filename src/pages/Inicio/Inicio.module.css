@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     background: url(../../assets/images/pexels-cottonbro-studio-8721318.jpg) center no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
