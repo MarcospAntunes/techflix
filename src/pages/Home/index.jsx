@@ -6,6 +6,7 @@ import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
 import Carrossel from '../../components/Carrossel';
 import Header from '../../components/Header';
 import Footer from  '../../components/Footer'
+import ModalVideo from '../../components/Card/Modal';
 
 function Home({ themeToggler }) {
     const carrossel = useRef()
@@ -125,7 +126,8 @@ function Home({ themeToggler }) {
                                 />
                             )
                             })), [videosDataBaseFiltrados])}
-                    </Carrossel>    
+                    </Carrossel>
+                    <ModalVideo />    
                 </section>
             </main>
             <Footer />

@@ -2,17 +2,25 @@ import { useFavoriteContext } from '../../../contexts/Favorites'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { ModalStyled } from './modalVideoStyle'
 import { MdFavoriteBorder, MdFavorite } from 'react-icons/md'
+import { useCardData } from '../../../hooks/useCardData'
 
-function ModalVideo({ isOpen, setIsOpen, id, link, titulo, autor, categoria, assunto, banner }) {
+function ModalVideo() {
+    const { clickedCardData, setOpenModal, modalOpen } = useCardData()
 
-    const { favorite, addFavorite } = useFavoriteContext()
-    const isFavorite = favorite.some((fav) => fav.id === id)
+    const closeModal = () => {
+        setOpenModal(false)
+    }
     
-    if(isOpen) {
+    const { favorite, addFavorite } = useFavoriteContext()
+    
+    if(modalOpen && clickedCardData) {
+        const { id, link, titulo, autor, categoria, assunto, banner } = clickedCardData
+        const isFavorite = favorite.some((fav) => fav.id === id)
+        
         return (
             <ModalStyled $modal>
                 <ModalStyled $conteudoModal>
-                    <AiOutlineCloseCircle onClick={setIsOpen} className="closeModal" />
+                    <AiOutlineCloseCircle onClick={closeModal} className="closeModal" />
                     <iframe width="560" height="315" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <h2>{titulo} </h2>
                     <p>{categoria}</p>

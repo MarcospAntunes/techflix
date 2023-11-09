@@ -12,6 +12,7 @@ import FavoritesProvider from './contexts/Favorites';
 import useAuth from './hooks/useAuth';
 import { AuthProvider } from './contexts/auth';
 import Register from './pages/Registrar';
+import { CardDataProvider } from './contexts/CardData';
 
 const Private = ({ Item, themeToggler }) => {
   const { signed } = useAuth()
@@ -30,15 +31,17 @@ function Rotas() {
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <BrowserRouter>
           <FavoritesProvider>
-            <GlobalStyle />
-            <Routes>
-              <Route path='/' element={<Inicio />}></Route>
-              <Route path='/home' element={<Private Item={Home} themeToggler={themeToggler} />}></Route>
-              <Route path='/registrar' element={<Register />}></Route>
-              <Route path='/login' element={<Login />}></Route>
-              <Route path='*' element={<Erro404 />}></Route>
-              <Route path='/meusFavoritos' element={<Private Item={Favoritos} themeToggler={themeToggler}/>}></Route>
-            </Routes>
+            <CardDataProvider>
+              <GlobalStyle />
+              <Routes>
+                <Route path='/' element={<Inicio />}></Route>
+                <Route path='/home' element={<Private Item={Home} themeToggler={themeToggler} />}></Route>
+                <Route path='/registrar' element={<Register />}></Route>
+                <Route path='/login' element={<Login />}></Route>
+                <Route path='*' element={<Erro404 />}></Route>
+                <Route path='/meusFavoritos' element={<Private Item={Favoritos} themeToggler={themeToggler}/>}></Route>
+              </Routes>
+            </CardDataProvider>
           </FavoritesProvider>
         </BrowserRouter>
       </ThemeProvider>
