@@ -4,11 +4,11 @@ import styled from "styled-components";
 const ContainerPesquisa = styled.div`
     width: 100vw;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 
 `
 
-const InputStyled = styled.input`
+export const InputStyled = styled.input`
     width: 500px;
     border-radius: 50px;
     font-size: 18px;
