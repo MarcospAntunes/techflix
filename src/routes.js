@@ -35,10 +35,10 @@ function Rotas() {
               <GlobalStyle />
               <Routes>
                 <Route path='/' element={<Inicio />}></Route>
-                <Route path='/home' element={<Private Item={Home} themeToggler={themeToggler} />}></Route>
                 <Route path='/registrar' element={<Register />}></Route>
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='*' element={<Erro404 />}></Route>
+                <Route path='/home' element={<Private Item={Home} themeToggler={themeToggler} />}></Route>
                 <Route path='/meusFavoritos' element={<Private Item={Favoritos} themeToggler={themeToggler}/>}></Route>
               </Routes>
             </CardDataProvider>
