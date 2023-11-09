@@ -9,6 +9,7 @@ import Footer from  '../../components/Footer'
 
 function Home({ themeToggler }) {
     const carrossel = useRef()
+    // eslint-disable-next-line no-unused-vars
     const [width, setWidth] = useState(0)
     useEffect(() => {
         setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
@@ -26,8 +27,6 @@ function Home({ themeToggler }) {
 
     const videosDataBaseFiltrados = videosDataBase.filter(video => video.titulo.toLowerCase().includes(searchLowerCase))
 
-    
-    
     return (
         <>
             <Header themeToggler={themeToggler}/>
@@ -40,7 +39,7 @@ function Home({ themeToggler }) {
                 <section className={styles.galeriaDeVideos}>
                     <h1 id='Front-end'>Front-end</h1>
                     <Carrossel>
-                        {useMemo(() => (videosFrontFiltrados.map((video) => {
+                        {(videosFrontFiltrados.map((video) => {
                             return (
                                 <Card
                                     id={video.id}
@@ -53,7 +52,7 @@ function Home({ themeToggler }) {
                                     banner = {video.banner}
                                 />
                             )
-                            })), [videosFrontFiltrados])}
+                            }))}
                     </Carrossel>
 
                     <h1 id='Back-end'>Back-end</h1>
