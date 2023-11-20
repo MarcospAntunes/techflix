@@ -26,6 +26,7 @@ function Register() {
             return
         } else if (password !== passwordConf) {
             setError("As senhas não são iguais")
+            return
         }
 
         const res = register(name, email, password)
