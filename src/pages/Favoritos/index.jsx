@@ -1,7 +1,7 @@
 import React from "react";
 import { useFavoriteContext } from "../../contexts";
 import styles from './Favoritos.module.css'
-import { Header, ListaDeFavoritos, ModalVideo, ListaDeFavoritos } from '../../components'
+import { Header, ListaDeFavoritos, ModalVideo } from '../../components'
 
 function Favoritos({ themeToggler }) {
   const {favorite} = useFavoriteContext()
