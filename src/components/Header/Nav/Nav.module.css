@@ -1,19 +1,20 @@
 nav {
-    padding-top: 25px;
-    text-align: center;
+  padding-top: 25px;
+  text-align: center;
 }
 
 nav a {
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
 }
+
 nav a:hover {
-    border-top: 2px solid #223A7A;
+  border-top: 2px solid #223A7A;
 }
 
 @media screen and (max-width: 1070px) {
-    nav {
-        display: none;
-    }  
+  nav {
+    display: none;
+  }
 }

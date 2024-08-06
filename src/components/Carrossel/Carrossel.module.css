@@ -1,14 +1,14 @@
 .lista {
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    gap: 15px;
-    cursor: grab;
-    height: 250px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  gap: 15px;
+  cursor: grab;
+  height: 250px;
 }
 
 @media screen and (max-width: 1070px) {
-    .lista {
-        gap: 5px;
-    }
+  .lista {
+    gap: 5px;
+  }
 }

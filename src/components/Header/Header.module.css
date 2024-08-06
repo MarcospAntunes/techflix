@@ -1,52 +1,52 @@
 header {
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid #223A7A;
-    width: 100vw;
-    height: 60px;
-    z-index: 1;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #223A7A;
+  width: 100vw;
+  height: 60px;
+  z-index: 1;
 }
 
 .logo {
-    font-family: 'Cairo Play', sans-serif;
-    font-size: 48px;
-    color: #223A7A;
+  font-family: 'Cairo Play', sans-serif;
+  font-size: 48px;
+  color: #223A7A;
 }
 
 .usuarioIcon {
-    width: 42px;
-    height: 42px;
-    margin-top: 10px;
-    cursor: pointer;
+  width: 42px;
+  height: 42px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .mobileMenu {
-    display: none;
+  display: none;
 }
 
 
 @media screen and (max-width: 1070px) {
-    .logo {
-        font-size: 32px;
-    }
+  .logo {
+    font-size: 32px;
+  }
 
-    .usuarioIcon {
-        width: 92px;
-        height: 24px;
-        margin-top: 10px;
-        cursor: pointer;
-    }
+  .usuarioIcon {
+    width: 92px;
+    height: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
 
-    .mobileMenu {
-        display: block;
-        width: 92px;
-        height: 24px;
-        margin-top: 10px;
-        margin-right: 5px;
-        cursor: pointer;
-    }
+  .mobileMenu {
+    display: block;
+    width: 92px;
+    height: 24px;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
 
 }
