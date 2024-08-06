@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './ListaDeFavoritos.module.css'
 import Card from '../Card'
 
-
 function ListaDeFavoritos({ videos }) {
   return (
   <>

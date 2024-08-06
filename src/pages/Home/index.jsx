@@ -1,12 +1,8 @@
 import React, { useMemo, useState, useEffect, useRef } from 'react';
 import styles from './Home.module.css'
-import Card from '../../components/Card';
 import { videosBack, videosFront, videosGame, videosDataBase, videosMobile } from './filtrarVideos'
-import CaixaDePesquisa from '../../components/CaixadePesquisa/.index';
-import Carrossel from '../../components/Carrossel';
-import Header from '../../components/Header';
-import Footer from  '../../components/Footer'
-import ModalVideo from '../../components/Card/Modal';
+import { Header, Card, Carrossel, CaixaDePesquisa, Footer } from './../../components'
+
 
 function Home({ themeToggler }) {
   const carrossel = useRef()

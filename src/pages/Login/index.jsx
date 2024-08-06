@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import styles from './Login.module.css'
-import useAuth from '../../hooks/useAuth';
+import { useAuth } from '../../hooks';
 import { useNavigate } from "react-router-dom"
 import { useState } from 'react';
 
@@ -14,19 +14,19 @@ function Login() {
   const [error, setError] = useState("")
 
   const handleLogin = (e) => {
-      e.preventDefault()
-      if(!email || !password) {
-          setError("Preencha todos os campos")
-          return
-      }
-      const res = login(email, password)
+    e.preventDefault()
+    if(!email || !password) {
+      setError("Preencha todos os campos")
+      return
+    }
+    const res = login(email, password)
 
-      if(res) {
-          setError(res)
-          return
-      }
-      navigate('/home')
-      window.location.reload()
+    if(res) {
+      setError(res)
+      return
+    }
+    navigate('/home')
+    window.location.reload()
   }
 
   return (

@@ -1,18 +1,11 @@
 import React, { useState }  from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Inicio from './pages/Inicio' ;
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Erro404 from './pages/Erro404';
 import { lightTheme, darkTheme } from "./themes";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
-import Favoritos from './pages/Favoritos';
-import FavoritesProvider from './contexts/Favorites';
-import useAuth from './hooks/useAuth';
-import { AuthProvider } from './contexts/auth';
-import Register from './pages/Registrar';
-import { CardDataProvider } from './contexts/CardData';
+import { useAuth } from './hooks';
+import { Erro404, Favoritos, Home, Inicio, Login, Register } from "./pages"
+import { FavoritesProvider, CardDataProvider, AuthProvider } from './contexts'
 
 const Private = ({ Item, themeToggler }) => {
   const { signed } = useAuth()
@@ -46,8 +39,6 @@ function Rotas() {
         </BrowserRouter>
       </ThemeProvider>
     </AuthProvider>
-    
-    
   );
 }
 

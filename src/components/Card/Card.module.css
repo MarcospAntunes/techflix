@@ -1,22 +1,22 @@
 .card {
-    width: 260px;
-    height: 250px;
-    text-align: center;
-    list-style: none;
+  width: 260px;
+  height: 250px;
+  text-align: center;
+  list-style: none;
 }
 
 .banner {
-    width: 250px;
-    height: 180px;
-    cursor: pointer;
+  width: 250px;
+  height: 180px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 100px) and (max-width: 1024px) {
-    .card {
-        width: 280px;
-        height: 250px;
-        margin-top: 30px;
-        margin-bottom: 100px;
-        margin-left: 5px !important;
-    }
+  .card {
+    width: 280px;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 5px !important;
+  }
 }

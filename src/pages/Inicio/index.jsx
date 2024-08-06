@@ -1,7 +1,7 @@
 import React from 'react';
-import Botao from '../../components/Botao';
 import styles from './Inicio.module.css';
 import { Link } from 'react-router-dom';
+import { Botao } from "../../components"
 
 function Inicio() {
   return (
