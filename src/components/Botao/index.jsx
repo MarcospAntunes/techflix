@@ -28,10 +28,4 @@ const Botao = styled.button`
  `}
 `
 
-function Bota({ children }) {
-  return (
-    <button>{children}</button>
-  )
-}
-
 export default Botao;
