@@ -1,4 +1,3 @@
-import React from "react";
 import { useFavoriteContext } from "../../contexts";
 import styles from './Favoritos.module.css'
 import { Header, ListaDeFavoritos, ModalVideo, Footer } from '../../components'

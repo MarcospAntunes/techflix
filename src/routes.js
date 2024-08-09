@@ -1,9 +1,8 @@
-import React, { useState }  from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { lightTheme, darkTheme } from "./themes";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
-import { useAuth } from './hooks';
+import { useAuth, useState } from './hooks';
 import { Erro404, Favoritos, Home, Inicio, Login, Register } from "./pages"
 import { FavoritesProvider, CardDataProvider, AuthProvider } from './contexts'
 

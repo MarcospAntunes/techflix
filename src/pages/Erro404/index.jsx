@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Erro404.module.css'
 import { Botao } from '../../components';
 

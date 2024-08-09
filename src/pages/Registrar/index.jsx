@@ -1,9 +1,6 @@
-import React from 'react';
 import { Link } from "react-router-dom";
 import styles from './Reigster.module.css'
-import { useAuth } from '../../hooks';
-import { useNavigate } from "react-router-dom"
-import { useState } from 'react';
+import { useAuth, useNavigate, useState } from '../../hooks';
 
 function Register() {
   const { register } = useAuth()

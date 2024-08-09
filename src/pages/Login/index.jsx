@@ -1,9 +1,6 @@
-import React from 'react';
 import { Link } from "react-router-dom";
 import styles from './Login.module.css'
-import { useAuth } from '../../hooks';
-import { useNavigate } from "react-router-dom"
-import { useState } from 'react';
+import { useAuth, useState, useNavigate } from '../../hooks';
 
 function Login() {
   const { login } = useAuth()

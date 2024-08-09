@@ -1,8 +1,7 @@
-import React, { useState }  from "react"
+import { useState }  from "react"
 import styles from './Header.module.css'
-import { MenuMobile } from "../MenuMobile"
+import { MenuMobile, ModalUsuario } from "../index"
 import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai'
-import ModalUsuario from '../../components/ModalUsuario'
 import Nav from "./Nav"
 
 function Header({ themeToggler }) {

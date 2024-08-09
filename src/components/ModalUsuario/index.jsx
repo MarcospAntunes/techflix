@@ -1,8 +1,6 @@
-import React from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { BotaoStyled, ModalStyle} from './ModalStyle'
-import { useAuth }  from '../../hooks'
-import { useNavigate } from 'react-router-dom'
+import { useAuth, useNavigate }  from '../../hooks'
 
 function ModalUsuario({ isOpen, setModalOpen, themeToggler }) {
   const handleThemeToggle = () => {
